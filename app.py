@@ -9,7 +9,7 @@ scaler = joblib.load("my_scaler.SAVE")
 app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
 
-@app.route("/home")
+@app.route("/HOME")
 @app.route("/")
 def hello():
     return render_template("HOME.html")
