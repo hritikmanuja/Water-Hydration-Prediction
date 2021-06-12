@@ -33,7 +33,7 @@ def predict():
             prediction = "not safe"
 
 
-        return render_template('home.html', prediction_text= "water is {} for human consumption ".format(prediction))
+        return render_template('HOME.html', prediction_text= "water is {} for human consumption ".format(prediction))
 
         
 
